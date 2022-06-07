@@ -1,0 +1,85 @@
+#holdingBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#topBox{
+    display: block;
+    border: 5px black;
+    border-style: solid;
+    height: 200px;
+    width: 1000px;
+}
+
+#purpleBox{
+    display:block;
+    background-color: blueviolet;
+    height:140px;
+    width:50px;
+    position:relative;
+    bottom:-50px;
+    left:10px
+}
+
+#greenBox{
+    display:block;
+    background-color: green;
+    height:180px;
+    width:400px;
+    position:relative;
+    bottom:130px;
+    left:100px
+}
+
+#blueCircle{
+    display:block;
+    background-color: lightblue;
+    height:180px;
+    width:180px;
+    position:relative;
+    bottom:310px;
+    left:550px;
+    border-radius: 100%;
+}
+
+#dottedBox{
+    display:flex;
+    border: 4px dotted;
+    position:relative;
+    top:25px;
+    height:250px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+#yellowSquare{
+    display: block;
+    background-color: #ede2ab;
+    height:180px;
+    width: 900px;
+    box-shadow: 10px 10px 5px #3d3d3d;
+}
+
+#whiteBox{
+    display:flex;
+    background-color: white;
+    height: 150px;
+    width: 500px;
+    box-shadow: 2px 2px 5px gray;
+    position:relative;
+    top:50px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+#purpleText{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 25px;
+    color:midnightblue;
+}

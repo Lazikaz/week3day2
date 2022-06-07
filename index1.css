@@ -1,0 +1,49 @@
+body{
+    margin:0px
+}
+
+#topBox{
+    display:block;
+    background-color:#2e2e2e;
+    height:125px;
+    z-index:3
+}
+
+#middleBox{
+    display: block;
+    background-color: #c4c4c4;
+    height:500px;
+    top:0px;
+    width:100%;
+    margin:auto
+}
+
+#sideBoxLeft{
+    background-color: #999999;
+    position:absolute;
+    display:block;
+    height:600px;
+    width:100px;
+    top: 125px;
+    left:0px;
+    z-index:2
+}
+
+#sideBoxRight{
+    background-color: #999999;
+    position:absolute;
+    display:block;
+    height:600px;
+    width:100px;
+    top: 125px;
+    right:0px;
+    z-index:2
+}
+
+#bottomBox{
+    background-color:#141414;
+    position:absolute;
+    display:block;
+    height:100px;
+    width:100%;
+}

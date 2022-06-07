@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+
+#gray{
+    display:flex;
+    background-color: #8c8c8c;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+#blueBox{
+    display:block;
+    background-color:royalblue;
+    height: 70px;
+    width: 70px;
+    position:relative;
+    left:10px
+
+}
+#whiteSpace{
+    display:block;
+    background-color: white;
+    width:100%;
+    height: 300px;
+}
+
+#blue{
+    display:block;
+    background-color: royalblue;
+    width: 100%;
+    height: 200px;
+}
+
+#teal{
+    display:block;
+    background-color: aqua;
+    width: 100%;
+    height: 200px;
+}
+
+#green{
+    display:block;
+    background-color: greenyellow;
+    width: 100%;
+    height: 200px;
+}
+
+#yellow{
+    display:block;
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+}
+
+#questionMark{
+    display: flex;
+    position:fixed;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    right:10px;
+    bottom:10px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#questMarkText{
+    color:white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
